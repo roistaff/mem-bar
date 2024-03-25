@@ -15,7 +15,7 @@ func makeBar(r int)string{
 	return Bar
 }
 func main(){
-	fmt.Println("Memory Bar (red=used,blue,free)")
+	fmt.Println("Memory Bar (red=used,blue=free)")
 	for{
 		v,_ := mem.VirtualMemory()
 		used := v.Used / 1024 / 1024 
