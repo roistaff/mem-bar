@@ -1,6 +1,7 @@
 package main
 import(
 	"github.com/shirou/gopsutil/v3/mem"
+	
 	"github.com/fatih/color"
 	"fmt"
 	"math"
