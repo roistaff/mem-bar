@@ -3,6 +3,7 @@ module github.com/roistaff/mem-bar
 go 1.22.1
 
 require (
+	github.com/distatus/battery v0.11.0
 	github.com/fatih/color v1.16.0
 	github.com/shirou/gopsutil/v3 v3.24.2
 )
@@ -17,4 +18,5 @@ require (
 	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	golang.org/x/sys v0.17.0 // indirect
+	howett.net/plist v1.0.0 // indirect
 )
